@@ -235,17 +235,21 @@ The order for resolving the default branch name is as follows:
 
 ### Miscellaneous
 
-| Alias      | Command             | Description                                                     |
-| ---------- | ------------------- | --------------------------------------------------------------- |
-| `g`        | `git`               | The `git` command                                               |
-| `gcl`      | `git clone`         | Clone a repository into a new directory                         |
-| `gm`       | `git merge`         | Join two or more development histories together                 |
-| `gbl`      | `git blame -b -w`   | Show what revision and author last modified each line of a file |
-| `gignored` |                     | list temporarily ignored files                                  |
-| `gcf`      | `git config`        | Get and set repository or global options                        |
-| `gcfl`     | `git config --list` | List all config entries                                         |
+| Alias  | Command             | Description                                                     |
+| ------ | ------------------- | --------------------------------------------------------------- |
+| `g`    | `git`               | The `git` command                                               |
+| `gcl`  | `git clone`         | Clone a repository into a new directory                         |
+| `gm`   | `git merge`         | Join two or more development histories together                 |
+| `gbl`  | `git blame -b -w`   | Show what revision and author last modified each line of a file |
+| `gcf`  | `git config`        | Get and set repository or global options                        |
+| `gcfl` | `git config --list` | List all config entries                                         |
 
 ## Changelog
+
+### 2023-03-15
+
+- fix bug renaming a branch caused by single quotes
+- remove undefined alias for `gignored`
 
 ### 2023-02-21
 
